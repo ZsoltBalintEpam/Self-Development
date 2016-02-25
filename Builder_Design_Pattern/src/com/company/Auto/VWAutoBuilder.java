@@ -1,9 +1,12 @@
-package com.company;
+package com.company.Auto;
+
+import com.company.Auto.Auto;
+import com.company.Auto.AutoBuilder;
 
 /**
  * @author Zsolt_Balint
  */
-public class VWAutoBuilder implements AutoBuilder{
+public class VWAutoBuilder implements AutoBuilder {
 
     private Auto auto;
 

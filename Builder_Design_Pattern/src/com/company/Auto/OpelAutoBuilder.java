@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Auto;
 
 /**
  * @author Zsolt_Balint
@@ -7,7 +7,7 @@ public class OpelAutoBuilder implements AutoBuilder {
 
     private Auto auto;
 
-    OpelAutoBuilder(){
+    public OpelAutoBuilder(){
         this.auto = new Auto();
     }
     @Override

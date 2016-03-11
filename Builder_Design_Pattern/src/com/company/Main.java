@@ -17,8 +17,10 @@ public class Main {
         - when you want to build an object made up from other objects
         - when you want the creation of these parts to be independent of the main object
         - hide the creation of the parts from the client so both aren't dependent
-        - the builder knows the specifics and nobody else does so only the Builder knows what to do, evry other class is just use that
+        - the builder knows the specifics and nobody else does so only the Builder knows what to do, every other class is just use that
         - has 2 parts (builder and director)
+        - the parts can be easily changed without the knowing of the director or the interface
+        - moves the construction logic of the object from the object class to a builder class
 */
 
     public static void main(String[] args) {
